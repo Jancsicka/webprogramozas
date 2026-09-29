@@ -1,5 +1,5 @@
 # 12A -webprogramozas
 
-- [Change event]()
-- [Keypress event]()
-- [Hangulat]()
+- [Change event](https://jancsicka.github.io/webprogramozas/001_change_event)
+- [Keypress event](https://jancsicka.github.io/webprogramozas/002_keypress_event)
+- [Hangulat](https://jancsicka.github.io/webprogramozas/003_hangulat)
