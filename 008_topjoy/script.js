@@ -424,3 +424,13 @@ const messages = [
     "VIDD VÉGIG AZ ÖTLETEIDET!",
     "VIGYÉL EGY JÓ HÍRT!",
 ];
+
+const messageBox = document.querySelector('#messageBox')
+const MessegeButton = document.querySelector('#MessegeButton')
+
+MessegeButton.addEventListener('click', ujuzenet)
+
+function ujuzenet(){
+    const veletlen = Math.floor(Math.random() * messages.length)
+    messageBox.textContent = messages[veletlen]
+}
